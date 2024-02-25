@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/zelenka/static/css/main.a31ea4ce.css",
+    "main.js": "/zelenka/static/js/main.0828b036.js",
+    "static/media/graph.svg": "/zelenka/static/media/graph.d67d9289f99651ab4196dc17f6f7fc85.svg",
+    "static/media/Grid.svg": "/zelenka/static/media/Grid.2e45cb9eee26b4672add.svg",
+    "static/media/Logo1.svg": "/zelenka/static/media/Logo1.f31c77ac57f73faf1d721b08435b6c9d.svg",
+    "static/media/logo4.svg": "/zelenka/static/media/logo4.6114a60e4ab04aa341245d8ef9e916d7.svg",
+    "static/media/IntroText.svg": "/zelenka/static/media/IntroText.1501674fc41cb1b220add48e6b4d70ed.svg",
+    "static/media/krakenLogo.svg": "/zelenka/static/media/krakenLogo.345e83d861c4cce0f65cd585680e38a4.svg",
+    "static/media/cryptocomLogo.svg": "/zelenka/static/media/cryptocomLogo.0b39c421a5ef0624b2f47648e2cfa4a2.svg",
+    "static/media/coinbaseLogo.svg": "/zelenka/static/media/coinbaseLogo.ebff7104f8905b4fe45180a33582a3f5.svg",
+    "static/media/support.svg": "/zelenka/static/media/support.dbbd14a4f0cdbb4cee18c529fac13920.svg",
+    "static/media/card.svg": "/zelenka/static/media/card.010b9b450b03fafa751902aac4567030.svg",
+    "static/media/eye.svg": "/zelenka/static/media/eye.7bd9aa17cfe72be553880465ab196804.svg",
+    "static/media/switch.svg": "/zelenka/static/media/switch.910fdb6ee254bfdf707ef19713c3d9eb.svg",
+    "static/media/lock.svg": "/zelenka/static/media/lock.a8798f587f5d1b412ccd0b0824a0e5ab.svg",
+    "static/media/rocket.svg": "/zelenka/static/media/rocket.5251c223e3e7f79c727f4f383dc252cd.svg",
+    "static/media/binanceLogo.svg": "/zelenka/static/media/binanceLogo.1f53cee42d39bba0a026e1327831691a.svg",
+    "static/media/bitfinexLogo.svg": "/zelenka/static/media/bitfinexLogo.a9eb3ef9be91776a8bb44d5317bf59ee.svg",
+    "static/media/twitter.svg": "/zelenka/static/media/twitter.fa362d618ba02c501483927ca33e8a49.svg",
+    "static/media/bybitLogo.svg": "/zelenka/static/media/bybitLogo.6ef620ade2a54781ff0b0e0ccb0108f3.svg",
+    "index.html": "/zelenka/index.html",
+    "static/media/mail.svg": "/zelenka/static/media/mail.49d6b4267b758219a3fe288180dd6c32.svg",
+    "static/media/telegram.svg": "/zelenka/static/media/telegram.d3b7437d5e29ac391a227ad716f56228.svg",
+    "static/media/logo3.svg": "/zelenka/static/media/logo3.38be7d2ab9dd68d60ed911b0c62d0dd1.svg",
+    "static/media/burger.svg": "/zelenka/static/media/burger.fc12fbd678bea2ce4ec9524cbe12a170.svg",
+    "static/media/facebook.svg": "/zelenka/static/media/facebook.f3119f2ae64d9fedd3b73e9a83ffe01b.svg",
+    "static/media/search.svg": "/zelenka/static/media/search.5e4487ef81106849b6abb6cb994d4cf9.svg",
+    "main.a31ea4ce.css.map": "/zelenka/static/css/main.a31ea4ce.css.map",
+    "main.0828b036.js.map": "/zelenka/static/js/main.0828b036.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a31ea4ce.css",
+    "static/js/main.0828b036.js"
+  ]
+}
