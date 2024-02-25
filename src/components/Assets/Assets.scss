@@ -1,0 +1,132 @@
+.assets {
+  position: relative;
+  z-index: 2;
+  padding: 101px 0 88px 0;
+  background: #0b0f15;
+
+  &__inner {
+    table {
+      width: 100%;
+      background: radial-gradient(
+        100% 100% at 50% 0%,
+        #26314e 0%,
+        #131820 0.01%,
+        #0f151e 100%
+      );
+      border-radius: 16px;
+      border: 1px solid #222d3e;
+      border-collapse: separate;
+    }
+    tr {
+      display: flex;
+      &:not(:last-child),
+      &:first-child {
+        border-bottom: 1px solid #222d3e;
+      }
+
+      th:nth-child(1),
+      td:nth-child(1) {
+        width: 56.5%;
+      }
+      th:nth-child(2),
+      td:nth-child(2) {
+        width: 10%;
+        justify-content: center;
+      }
+      th:nth-child(3),
+      td:nth-child(3) {
+        width: 11%;
+        justify-content: center;
+      }
+      th:nth-child(4),
+      td:nth-child(4) {
+        width: 11%;
+        justify-content: center;
+      }
+      th:nth-child(5),
+      td:nth-child(5) {
+        width: 11%;
+        justify-content: flex-end;
+      }
+    }
+    th,
+    td {
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+    }
+    th {
+      font-weight: 500;
+      font-size: 16px;
+      color: #6d799c;
+    }
+  }
+  &__btn {
+    width: 100%;
+    margin-top: 16px;
+  }
+  @media (max-width: 1280px) {
+    th,
+    td {
+      padding: 18px;
+    }
+    th:nth-child(1),
+    td:nth-child(1) {
+      flex: 3;
+    }
+    th:not(:nth-child(1)),
+    td:not(:nth-child(1)) {
+      flex: 1;
+    }
+  }
+  @media (max-width: 768px) {
+    table {
+      background: transparent;
+      border: none;
+    }
+
+    thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    tr {
+      border-radius: 16px;
+      border: 1px solid #222d3e;
+      border-collapse: separate;
+      display: block;
+      margin-bottom: 0.625em;
+      background: radial-gradient(
+        100% 100% at 50% 0%,
+        #26314e 0%,
+        #131820 0.01%,
+        #0f151e 100%
+      );
+    }
+    td {
+      position: relative;
+      border-bottom: 1px solid #222d3e;
+      display: flex;
+      width: 100% !important;
+      justify-content: flex-end !important;
+      align-items: center;
+    }
+    td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      font-weight: 500;
+      font-size: 16px;
+      color: #6d799c;
+      text-transform: uppercase;
+    }
+    td:last-child {
+      border-bottom: 0;
+    }
+  }
+}

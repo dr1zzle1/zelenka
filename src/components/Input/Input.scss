@@ -1,0 +1,36 @@
+.input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  input {
+    position: relative;
+    padding: 10px 102px 10px 44px;
+    font-family: "Inter";
+    outline: none;
+    border: none;
+    background: radial-gradient(100% 100% at 50% 0%, #26314e 0%, #252b3d 100%);
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #6d799c;
+    width: 400px;
+  }
+
+  &__icon {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    transform: translateX(13px);
+    z-index: 2;
+  }
+  @media (max-width: 1366px) {
+    input {
+      padding: 7px 10px 7px 44px;
+    }
+  }
+  @media (max-width: 640px) {
+    input {
+      font-size: 13px;
+    }
+  }
+}

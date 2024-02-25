@@ -1,0 +1,27 @@
+.auth-link {
+  padding: 10px 24px;
+  font-weight: 500;
+  font-size: 18px;
+  background: radial-gradient(100% 100% at 50% 0%, #26314e 0%, #1e253c 100%);
+  border-radius: 6px;
+  color: #cee7ff;
+  transition: all 0.2s linear;
+  text-decoration: none;
+  text-align: center;
+  &:hover {
+    color: #1e253c;
+    background: #cee7ff;
+  }
+
+  &-primary {
+    background: radial-gradient(100% 100% at 50% 0%, #66cbf9 0%, #0fb5ff 100%);
+    color: #08090b;
+  }
+  @media (max-width: 1366px) {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+  @media (max-width: 640px) {
+    padding: 7px 10px;
+  }
+}
