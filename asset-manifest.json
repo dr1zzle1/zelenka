@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zelenka/static/css/main.e9f4b7b3.css",
+    "main.css": "/zelenka/static/css/main.400656f6.css",
     "main.js": "/zelenka/static/js/main.7fd1e621.js",
     "static/media/graph.svg": "/zelenka/static/media/graph.d67d9289f99651ab4196dc17f6f7fc85.svg",
     "static/media/Grid.svg": "/zelenka/static/media/Grid.2e45cb9eee26b4672add.svg",
@@ -27,11 +27,11 @@
     "static/media/burger.svg": "/zelenka/static/media/burger.fc12fbd678bea2ce4ec9524cbe12a170.svg",
     "static/media/facebook.svg": "/zelenka/static/media/facebook.f3119f2ae64d9fedd3b73e9a83ffe01b.svg",
     "static/media/search.svg": "/zelenka/static/media/search.5e4487ef81106849b6abb6cb994d4cf9.svg",
-    "main.e9f4b7b3.css.map": "/zelenka/static/css/main.e9f4b7b3.css.map",
+    "main.400656f6.css.map": "/zelenka/static/css/main.400656f6.css.map",
     "main.7fd1e621.js.map": "/zelenka/static/js/main.7fd1e621.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9f4b7b3.css",
+    "static/css/main.400656f6.css",
     "static/js/main.7fd1e621.js"
   ]
 }
