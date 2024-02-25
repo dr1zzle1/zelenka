@@ -5,7 +5,7 @@ const Coin = ({ name, price, change, volume, iconSrc, shortname }) => {
   return (
     <tr className="coin">
       <td data-label="name" className="coin__info">
-        <img src={iconSrc} alt="icon" />
+        <img src={iconSrc} alt={`${name}-icon`} />
         <span className="coin__name">{name}</span>
         <span className="coin__shortname">{shortname}</span>
       </td>

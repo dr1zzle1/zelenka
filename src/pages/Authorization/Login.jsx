@@ -2,6 +2,7 @@ import { Field, Form, Formik } from "formik";
 import { Link } from "react-router-dom";
 
 import "./Authorization.scss";
+import { Helmet } from "react-helmet";
 
 const Login = () => {
   const initialValues = {
@@ -12,6 +13,7 @@ const Login = () => {
   const handleSubmit = () => {};
   return (
     <div className="auth">
+      <Helmet title="Login" />
       <div className="auth__wrapper">
         <h1>Welcome back</h1>
         <h2>Login to continue</h2>

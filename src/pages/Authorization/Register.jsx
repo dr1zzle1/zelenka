@@ -2,6 +2,7 @@ import { Field, Form, Formik } from "formik";
 import { Link } from "react-router-dom";
 
 import "./Authorization.scss";
+import { Helmet } from "react-helmet";
 
 const Register = () => {
   const initialValues = {
@@ -12,6 +13,7 @@ const Register = () => {
   const handleSubmit = () => {};
   return (
     <div className="auth">
+      <Helmet title="Sign-up" />
       <div className="auth__wrapper">
         <h1>Sign up</h1>
         <h2>Sign up to continue</h2>

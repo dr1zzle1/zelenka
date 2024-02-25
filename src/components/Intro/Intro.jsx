@@ -15,7 +15,7 @@ const Intro = () => {
             <button className="intro__button">
               <IntroText />
             </button>
-            <span>Buy, trade and store cryptocurrencies</span>
+            <h1>Buy, trade and store cryptocurrencies</h1>
             <form>
               <Input
                 className="intro__input"
